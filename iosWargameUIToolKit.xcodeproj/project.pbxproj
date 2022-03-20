@@ -10,12 +10,12 @@
 		7C27F21227E7A00F00E5E297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C27F21127E7A00F00E5E297 /* AppDelegate.swift */; };
 		7C27F21427E7A00F00E5E297 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C27F21327E7A00F00E5E297 /* SceneDelegate.swift */; };
 		7C27F21627E7A00F00E5E297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C27F21527E7A00F00E5E297 /* ViewController.swift */; };
-		7C27F21927E7A00F00E5E297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C27F21727E7A00F00E5E297 /* Main.storyboard */; };
 		7C27F21B27E7A01100E5E297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C27F21A27E7A01100E5E297 /* Assets.xcassets */; };
 		7C27F21E27E7A01100E5E297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C27F21C27E7A01100E5E297 /* LaunchScreen.storyboard */; };
 		7C27F22927E7A01100E5E297 /* iosWargameUIToolKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C27F22827E7A01100E5E297 /* iosWargameUIToolKitTests.swift */; };
 		7C27F23327E7A01100E5E297 /* iosWargameUIToolKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C27F23227E7A01100E5E297 /* iosWargameUIToolKitUITests.swift */; };
 		7C27F23527E7A01100E5E297 /* iosWargameUIToolKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C27F23427E7A01100E5E297 /* iosWargameUIToolKitUITestsLaunchTests.swift */; };
+		7C27F24227E7AC3400E5E297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C27F24127E7AC3400E5E297 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		7C27F21127E7A00F00E5E297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C27F21327E7A00F00E5E297 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7C27F21527E7A00F00E5E297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C27F21827E7A00F00E5E297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C27F21A27E7A01100E5E297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C27F21D27E7A01100E5E297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C27F21F27E7A01100E5E297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		7C27F22E27E7A01100E5E297 /* iosWargameUIToolKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosWargameUIToolKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C27F23227E7A01100E5E297 /* iosWargameUIToolKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosWargameUIToolKitUITests.swift; sourceTree = "<group>"; };
 		7C27F23427E7A01100E5E297 /* iosWargameUIToolKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosWargameUIToolKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C27F24127E7AC3400E5E297 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				7C27F21127E7A00F00E5E297 /* AppDelegate.swift */,
 				7C27F21327E7A00F00E5E297 /* SceneDelegate.swift */,
 				7C27F21527E7A00F00E5E297 /* ViewController.swift */,
-				7C27F21727E7A00F00E5E297 /* Main.storyboard */,
+				7C27F24127E7AC3400E5E297 /* Main.storyboard */,
 				7C27F21A27E7A01100E5E297 /* Assets.xcassets */,
 				7C27F21C27E7A01100E5E297 /* LaunchScreen.storyboard */,
 				7C27F21F27E7A01100E5E297 /* Info.plist */,
@@ -231,9 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C27F24227E7AC3400E5E297 /* Main.storyboard in Resources */,
 				7C27F21E27E7A01100E5E297 /* LaunchScreen.storyboard in Resources */,
 				7C27F21B27E7A01100E5E297 /* Assets.xcassets in Resources */,
-				7C27F21927E7A00F00E5E297 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7C27F21727E7A00F00E5E297 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C27F21827E7A00F00E5E297 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C27F21C27E7A01100E5E297 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
